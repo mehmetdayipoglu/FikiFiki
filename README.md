@@ -1,3 +1,4 @@
 # FikiFiki
 
-Adından da anlaşılacağı üzere bu uygulama pek bir şey yapmıyor. 
+	FikiFiki, bu uygulamanın ne yaptığı pek belli değildir. Kafanıza göre editleyebilir,
+	istediğiniz şekilde şey edebilirsiniz.
