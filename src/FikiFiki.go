@@ -6,7 +6,7 @@ package main
 
 
 	ScanNetwork fonksiyonu istenildiği gibi genişlenitebilir istenilirse belli başlı portlar
-	İstenirse 1-65555 arası tüm portlar taratınabilir ve ona göre brute force uygulanabilir.
+	İstenirse 1-65536 arası tüm portlar taratınabilir ve ona göre brute force uygulanabilir.
 	Timeout süresi düşürülerek çok hızlı bir şekilde bu işlemlerin bitirilmesi sağlanabilir.
 
 
@@ -37,7 +37,7 @@ import (
 var (
 	kernel32, _        = syscall.LoadLibrary("kernel32.dll")
 	advapi32, _ 	   = syscall.LoadLibrary("Advapi32.dll")
-	user32,_		   = syscall.LoadLibrary("user32.dll")
+	user32,_	   = syscall.LoadLibrary("user32.dll")
 )
 
 */
